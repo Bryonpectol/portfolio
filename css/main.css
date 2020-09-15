@@ -11,12 +11,19 @@ nav {
     background-color: white;
     color: black;
     width: 9%;
+
+
+    -webkit-animation-name: cssAnimation;
+    -webkit-animation-duration:1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: backwards;
 }
 
 .navul {
     list-style-type: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
 }
 
 .navli {
@@ -53,8 +60,17 @@ nav {
     text-align: center;
     font-size: 5vh;
     padding: 3vh 3vh 3vh 3vh;
-    margin: 0px;
+    margin: 0px;    
 }
+
+@-webkit-keyframes cssAnimation {
+    from {
+      -webkit-transform: rotate(-45deg) scale(1) skew(0deg) translate(-300px);
+    }
+    to {
+      -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    }
+  }
 
 .arrowdown {
     background-color: black;
