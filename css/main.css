@@ -3,35 +3,62 @@
     padding: 0px;
 }
 
-nav {
+body {
     background-color: black;
-    color: white;
-    width: 100%;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    width: 9%;
 }
 
 .navul {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .navli {
     margin: 2.5vh;
     padding: 1vh;
+    text-align: center;
 }
 
 .navlink {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 .navlinkon {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     text-decoration: none;
 }
 
 .navlink:hover {
-    background-color: lightgrey;
-    color: black;
+    background-color: slategrey;
+    color: white;
+}
+
+.arrowup {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10vh;
+    padding: 0vh 3vh 3vh 3vh;
+    margin: 0px
+}
+
+.arrowdown {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10vh;
+    padding: 0vh 3vh 3vh 3vh;
+    margin: 0px
+}
+
+.arrownone {
+    display: none;
 }
