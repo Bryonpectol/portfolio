@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.navul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navli {
+    margin: 2.5vh;
+    padding: 1vh;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+
+.navlinkon {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    background-color: lightgrey;
+    color: black;
+}
