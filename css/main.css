@@ -36,6 +36,12 @@ nav {
     text-decoration: none;
 }
 
+.navlinkon:hover {
+    background-color: slategray;
+    color: white;
+    text-decoration: none;
+}
+
 .navlink:hover {
     background-color: slategrey;
     color: white;
@@ -45,18 +51,32 @@ nav {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 10vh;
-    padding: 0vh 3vh 3vh 3vh;
-    margin: 0px
+    font-size: 5vh;
+    padding: 3vh 3vh 3vh 3vh;
+    margin: 0px;
 }
 
 .arrowdown {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 10vh;
-    padding: 0vh 3vh 3vh 3vh;
-    margin: 0px
+    font-size: 4vh;
+    padding: 3vh 3vh 3vh 3vh;
+    margin: 0px;
+}
+
+.arrowup:hover {
+    background-color: slategray;
+    color: white;
+}
+
+.arrowdown:hover {
+    background-color: white;
+    color: black;
+}
+
+.menulink {
+    text-decoration: none;
 }
 
 .arrownone {
