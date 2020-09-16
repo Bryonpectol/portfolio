@@ -3,6 +3,33 @@
     padding: 0px;
 }
 
+@-webkit-keyframes cssAnimation {
+    from {
+      -webkit-transform: rotate(-45deg) scale(1) skew(0deg) translate(-300px);
+    }
+    to {
+      -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    }
+  }
+
+  @-webkit-keyframes cssAnimation1 {
+    from {
+      -webkit-transform: rotate(90deg) scale(1) skew(0deg) translate(0px);
+    }
+    to {
+      -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    }
+  }
+
+  @-webkit-keyframes cssAnimation2 {
+    from {
+      -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(-300px);
+    }
+    to {
+      -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    }
+  }
+
 body {
     background-color: black;
 }
@@ -11,13 +38,14 @@ nav {
     background-color: white;
     color: black;
     width: 9%;
+    margin:0px;
 
 
-    -webkit-animation-name: cssAnimation;
+    /* -webkit-animation-name: cssAnimation;
     -webkit-animation-duration:1s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: ease;
-    -webkit-animation-fill-mode: backwards;
+    -webkit-animation-fill-mode: backwards; */
 }
 
 .navul {
@@ -63,15 +91,6 @@ nav {
     margin: 0px;    
 }
 
-@-webkit-keyframes cssAnimation {
-    from {
-      -webkit-transform: rotate(-45deg) scale(1) skew(0deg) translate(-300px);
-    }
-    to {
-      -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
-    }
-  }
-
 .arrowdown {
     background-color: black;
     color: white;
@@ -97,4 +116,47 @@ nav {
 
 .arrownone {
     display: none;
+}
+
+.aboutdiv {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px;
+    padding: 0px;
+}
+
+.aboutp {
+    color: white;
+    width: 25%;
+    margin-right: 20%;
+    margin-top: 7.75%;
+    margin-left: 2%;
+    /* text-align: right; */
+    /* margin-left: 60%; */
+}
+
+.imgme {
+    width: 20%;
+    border-radius: 5000px;
+    /* margin-left: 25%; */
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 2vh;
+}
+
+.projectsdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projectsimg {
+    width: 300px;
+    height: 149px;
+    margin: 5vh;
+    margin-bottom: 0px;
 }
