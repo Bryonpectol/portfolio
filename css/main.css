@@ -31,8 +31,11 @@
   }
 
   @keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    0% {background-color: slategray;}
+    50% {background-color: black;}
+    100%{background-color: slategray;
+         translate: 600px;
+        }
     
   }
 
@@ -108,8 +111,6 @@ nav {
 
 .arrowup:hover {
     animation: example 3s infinite;
-    animation-timing-function: ease-in;
-  /* animation-duration: 4s infinite; */
 }
 
 .arrowdown:hover {
