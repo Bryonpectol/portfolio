@@ -126,45 +126,72 @@ nav {
     display: none;
 }
 
-.aboutdiv {
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 0px;
-    padding: 0px;
+/* Calc */
+
+.mainCalc {
+  border: 5px solid black;
+  border-radius: 50px;
+  height: 90vh;
+  margin-top: 5vh;
+  box-shadow: 5px 5px 5px grey;
 }
 
-.aboutp {
-    color: white;
-    width: 25%;
-    margin-right: 20%;
-    margin-top: 7.75%;
-    margin-left: 2%;
-    /* text-align: right; */
-    /* margin-left: 60%; */
+.outputarea {
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 1vh;
+  height: 15vh;
 }
 
-.imgme {
-    width: 20%;
-    border-radius: 5000px;
-    /* margin-left: 25%; */
+.parea {
+  padding-top: 5vh;
+  padding-left: 3vh;
+  font-size: 3vh;
+  border: none;
 }
 
-h2 {
-    color: white;
-    text-align: center;
-    margin-top: 15vh;
-    margin-bottom: 2vh;
+.btnsdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.projectsdiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.btn {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 10vh;
+  margin: 10px;
+  font-size: 2vh;
 }
 
-.projectsimg {
-    width: 300px;
-    height: 149px;
-    margin: 5vh;
-    margin-bottom: 0px;
+.btna {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  width: 12vh;
+  height: 12vh;
+  font-size: 2.25vh;
+  margin: 10px;
+  box-shadow: 5px 5px 5px;
+}
+
+.btna:hover {
+  box-shadow: none;
+}
+
+.btnaequals {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  width: 51.1vh;
+  height: 12vh;
+  font-size: 2.25vh;
+  margin: 10px;
+  box-shadow: 5px 5px 5px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2vh;
 }
