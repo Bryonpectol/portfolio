@@ -121,7 +121,7 @@
   }
 
   .arrowup {
-    background-color: black;
+    background-color: #282829;
     color: white;
     text-align: center;
     font-size: 5vh;
@@ -157,7 +157,7 @@
 
   .aboutdiv {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0px;
     padding: 0px;
     /* padding-top: 20vh; */
@@ -172,8 +172,7 @@
     padding-top: 30vh;
     font-size: 2.5vh;
     text-align: center;
-
-    
+    font-family: Spacemono, Arial, Helvetica, sans-serif;
   }
 
   .imgme {
@@ -181,7 +180,6 @@
     height: 30vh;
     border-radius: 5000px;
     margin-left: 50%;
-    /* margin-left: 25%; */
   }
 
   h2 {
