@@ -47,7 +47,7 @@
 @media only screen and (max-width: 600px) {
   body {
     background-color: black;
-    max-width: 100%;
+    /* max-width: 100%; */
   }
 
   .mobilenav {
@@ -150,8 +150,8 @@
   }
 
   .imgme {
-    width: 50vh;
-    height: 50vh;
+    width: 30vh;
+    height: 30vh;
     border-radius: 5000px;
     /* margin-left: 25%; */
   }
