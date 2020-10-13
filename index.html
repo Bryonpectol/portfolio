@@ -13,7 +13,7 @@
     </head>
     <body>
         <!-- Nav -->
-        <nav>
+        <nav class="mobilenav">
             <a class="menulink" href="#" onclick="clickDown()"><p id="arrowdown" class="arrowup">Menu</p></a>
             <ul id="navul" class="arrownone">
                 <a id="homebtn" href="https://bryonpectol.dev" class="navlinkon"><li class="navli">Home</li></a>
@@ -21,6 +21,16 @@
                 <a id="projectsbtn" href="/html/projects.html" class="navlink"><li class="navli">Projects</li></a>
                 <a id="contactbtn" href="/html/contact.html" class="navlink"><li class="navli">Contact Me</li></a>
                 <a class="menulink" href="#" onclick="clickUp()"><p id="arrowup" class="arrowup">^</p></a>
+                <script src="/js/main.js"></script>
+            </ul>
+        </nav>
+
+        <nav class="desktopnav">
+            <ul class="navdesktopul">
+                <a href="" class="navlinkon"><li class="navli">Home</li></a>
+                <a href="/html/about.html" class="navlink"><li class="navli">About Me</li></a>
+                <a href="/html/projects.html" class="navlink"><li class="navli">Projects</li></a>
+                <a href="/html/contact.html" class="navlink"><li class="navli">Contact Me</li></a>
             </ul>
         </nav>
 
@@ -31,14 +41,7 @@
             <p class="aboutp">Hello, my name is Bryon Pectol. I am a student studying at Utah Valley University. My major is Web and App Development. I am 21 years old. </p>
             <img class="imgme" src="/images/me.jpg" alt="picture of Bryon Pectol" />
             </div>
-            <div>
-                <h2>Major Projects</h2>
-                <div class="projectsdiv">
-                    <a href="https://myavatarbender.netlify.app"><img class="projectsimg" src="/images/mab.jpg" alt="" /></a>
-                    <a href="https://spacehut.net/"><img class="projectsimg" src="/images/spacehut.jpg" alt="" /></a>
-                    <a href="/html/calc.html"><img class="projectsimg" src="" alt="Calculator" /></a>
-                </div>
-            </div>
+            
         </main>
 
         <!-- Footer -->
@@ -47,6 +50,5 @@
 
         </footer>
         
-        <script src="/js/main.js"></script>
     </body>
 </html>
