@@ -13,15 +13,26 @@
     </head>
     <body>
         <!-- Nav -->
-        <nav>
-            <a href="#" onclick="clickDown()"><p id="arrowdown" class="arrownone">&#751;</p></a>
-            <ul id="navul" class="navul">
+        
+        <nav class="mobilenav">
+            <a class="menulink" href="#" onclick="clickDown()"><p id="arrowdown" class="arrowup">Menu</p></a>
+            <ul id="navul" class="arrownone">
                 <a id="homebtn" href="https://bryonpectol.dev" class="navlink"><li class="navli">Home</li></a>
                 <a id="aboutbtn" href="/html/about.html" class="navlinkon"><li class="navli">About Me</li></a>
                 <a id="projectsbtn" href="/html/projects.html" class="navlink"><li class="navli">Projects</li></a>
                 <a id="contactbtn" href="/html/contact.html" class="navlink"><li class="navli">Contact Me</li></a>
-                <a href="#" onclick="clickUp()"><p id="arrowup" class="arrowup">&#752;</p></a>
-                
+                <a class="menulink" href="#" onclick="clickUp()"><p id="arrowup" class="arrowup">^</p></a>
+                <script src="/js/main.js"></script>
+            </ul>
+        </nav>
+
+        <p class="titleme">Bryon's Portfolio</p>
+        <nav class="desktopnav">
+            <ul class="navdesktopul">
+                <a href="https://bryonpectol.dev" class="navlink"><li class="navli">Home</li></a>
+                <a href="/html/about.html" class="navlinkon"><li class="navli">About Me</li></a>
+                <a href="/html/projects.html" class="navlink"><li class="navli">Projects</li></a>
+                <a href="/html/contact.html" class="navlink"><li class="navli">Contact Me</li></a>
             </ul>
         </nav>
 

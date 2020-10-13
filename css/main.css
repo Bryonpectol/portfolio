@@ -4,6 +4,26 @@
   overflow-x: hidden;
 }
 
+@font-face {
+    font-family: Dymaxion;
+    src: url(/fonts/DymaxionScript.ttf);
+  }
+
+  @font-face {
+    font-family: Odin;
+    src: url(/fonts/odin.otf);
+  }
+
+  @font-face {
+    font-family: Spacejunk;
+    src: url(/fonts/spacejunkXL.ttf);
+  }
+
+  @font-face {
+    font-family: Spacemono;
+    src: url(/fonts/SpaceMono-Regular.ttf);
+  }
+
 @-webkit-keyframes cssAnimation {
   from {
     -webkit-transform: rotate(-45deg) scale(1) skew(0deg) translate(-300px);
@@ -44,16 +64,20 @@
   }
 }
 
+
+
+/* Mobile */
+
 @media only screen and (max-width: 600px) {
   body {
-    background-color: black;
+    background-color: #FFFFFF;
     /* max-width: 100%; */
   }
 
   .mobilenav {
-    background-color: white;
+    background-color: #003E4A;
     color: black;
-    width: 25%;
+    width: 30%;
     margin: 0px;
     position: fixed;
   }
@@ -75,12 +99,12 @@
   }
 
   .navlink {
-    color: black;
+    color: #71D0CE;
     text-decoration: none;
   }
 
   .navlinkon {
-    background-color: black;
+    background-color: #282829;
     color: white;
     text-decoration: none;
   }
@@ -141,18 +165,22 @@
   }
 
   .aboutp {
-    color: white;
-    width: 25%;
-    margin-right: 20%;
-    margin-left: 2%;
-    padding-top: 50vh;
+    color: #282829;
+    width: 75%;
+    /* margin-right: 20%; */
+    margin-left: 10%;
+    padding-top: 30vh;
     font-size: 2.5vh;
+    text-align: center;
+
+    
   }
 
   .imgme {
     width: 30vh;
     height: 30vh;
     border-radius: 5000px;
+    margin-left: 50%;
     /* margin-left: 25%; */
   }
 
@@ -186,24 +214,35 @@
 
 
 
-
+/* Desktop */
 
 @media only screen and (min-width: 601px) {
   body {
-    background-color: black;
+    background-color: #FFFFFF;
   }
 
   .mobilenav {
     display: none;
   }
 
+  .titleme {
+      color: white;
+      text-align: center;
+      position: fixed;
+      /* margin-bottom: 2vh; */
+      margin-left: 0%;
+      background-color: #003E4A;
+      width: 100%;
+  }
+
   .desktopnav {
     display: flex;
-    flex-direction: row;
-    background-color: white;
+    flex-direction: column;
+    background-color: #003E4A;
     /* color: black; */
     /* width: 9%; */
     margin: 0px;
+    padding-top: 1vh;
     height: 10vh;
 
   }
@@ -218,6 +257,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    /* margin-left: 70%; */
   }
 
   .navli {
@@ -229,13 +269,13 @@
   }
 
   .navlink {
-    color: black;
+    color: #71D0CE;
     text-decoration: none;
     list-style-type: none;
   }
 
   .navlinkon {
-    background-color: black;
+    background-color: #282829;
     color: white;
     text-decoration: none;
     list-style-type: none;
@@ -243,16 +283,16 @@
   }
 
   .navlink:hover {
-    background-color: black;
+    background-color: #282829;
     color: white;
   }
 
   .arrowdown {
-      display: none;
+    display: none;
   }
 
   .arrowup {
-      display: none;
+    display: none;
   }
 
   .menulink {
@@ -265,25 +305,26 @@
 
   .aboutdiv {
     display: flex;
-    flex-direction: row-reverse;
-    margin: 0px;
-    padding: 0px;
+    flex-direction:row-reverse ;
+    margin-top: 20vh;
+    /* height: 100vh; */
   }
 
   .aboutp {
-    color: white;
-    width: 25%;
-    margin-right: 20%;
-    margin-top: 7.75%;
-    margin-left: 2%;
-    /* text-align: right; */
-    /* margin-left: 60%; */
+    color: #282829;
+    margin-right: 23%;
+    padding-top: 13vh;
+    width: 75vh;
+    font-size: 3.5vh;
+    font-family: Spacemono, Helvetica, sans-serif;
   }
 
   .imgme {
     width: 20%;
     border-radius: 5000px;
-    /* margin-left: 25%; */
+    /* margin-bottom: 50vh; */
+    margin-right: 25vh;
+    /* box-shadow: 5px 5px 5px grey; */
   }
 
   h2 {
@@ -291,18 +332,5 @@
     text-align: center;
     margin-top: 15vh;
     margin-bottom: 2vh;
-  }
-
-  .projectsdiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .projectsimg {
-    width: 300px;
-    height: 149px;
-    margin: 5vh;
-    margin-bottom: 0px;
   }
 }
