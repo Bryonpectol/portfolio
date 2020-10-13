@@ -74,6 +74,16 @@
     /* max-width: 100%; */
   }
 
+  .titleme {
+    color: white;
+    text-align: center;
+    position: fixed;
+    /* margin-bottom: 2vh; */
+    margin-left: 0%;
+    background-color: #003E4A;
+    width: 100%;
+  }
+
   .mobilenav {
     background-color: #003E4A;
     color: black;
