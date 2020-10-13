@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 
 @-webkit-keyframes cssAnimation {
@@ -46,7 +47,7 @@
 @media only screen and (max-width: 600px) {
   body {
     background-color: black;
-    overflow-x: hidden;
+    max-width: 100%;
   }
 
   .mobilenav {
