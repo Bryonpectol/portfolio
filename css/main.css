@@ -87,7 +87,7 @@
   .mobilenav {
     background-color: #003E4A;
     color: black;
-    width: 30%;
+    width: 40%;
     margin: 0px;
     position: fixed;
     padding-top: 2vh;
@@ -180,9 +180,9 @@
     color: #282829;
     width: 75%;
     /* margin-right: 20%; */
-    margin-left: 12%;
-    padding-top: 10vh;
-    font-size: 2.5vh;
+    margin-left: 11%;
+    padding-top: 8vh;
+    font-size: 3vh;
     text-align: center;
     font-family: Spacemono, Arial, Helvetica, sans-serif;
   }
@@ -191,7 +191,7 @@
     width: 30vh;
     height: 30vh;
     border-radius: 5000px;
-    margin-left: 25%;
+    margin-left: 23%;
   }
 
   h2 {
