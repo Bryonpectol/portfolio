@@ -371,6 +371,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     margin: 0px;
   }
@@ -382,9 +383,19 @@
       text-align: center;
       padding: 0px;
       margin: 5vh;
+      box-shadow: 5px 5px 5px #003E4A;
   }
 
   .imagecard {
     width: 40vh;
+}
+
+.ability1button {
+  width: 15vh;
+  height: 10vh;
+  background-color: #71D0CE;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 4vh;
 }
 }
