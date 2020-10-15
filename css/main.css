@@ -279,6 +279,12 @@
     color: #282829;
     border: solid 2px #282829;
   }
+
+  .contactlinksec:hover {
+    background-color: #71D0CE;
+    color: #282829;
+    border: solid 2px #282829;
+  }
 }
 
 
@@ -386,11 +392,33 @@
     /* height: 100vh; */
   }
 
+  .biodiv {
+    display: flex;
+    flex-direction: column ;
+    /* margin-top: 20vh; */
+    justify-content: center;
+    text-align-last: center;
+    /* height: 100vh; */
+  }
+
   .aboutp {
     color: #282829;
     margin-right: 23%;
     padding-top: 13vh;
     width: 75vh;
+    font-size: 3.5vh;
+    font-family: Spacemono, Helvetica, sans-serif;
+  }
+
+  .biop {
+    color: #282829;
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-top: 13vh;
+    padding: 10vh;
+    border: 2px solid #282829;
+    text-align: center;
+    width: 150vh;
     font-size: 3.5vh;
     font-family: Spacemono, Helvetica, sans-serif;
   }
@@ -457,7 +485,27 @@
   background-color: #282829;
 }
 
+.contactlinksec {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #71D0CE;
+  padding: 5vh;
+  margin: 5vh;
+  margin-left: 36%;
+  width: 50vh;
+  /* height: 10vh; */
+  text-decoration: none;
+  color: white;
+  background-color: #282829;
+}
+
 .contactlink:hover {
+  background-color: #71D0CE;
+  color: #282829;
+  border: solid 2px #282829;
+}
+
+.contactlinksec:hover {
   background-color: #71D0CE;
   color: #282829;
   border: solid 2px #282829;
