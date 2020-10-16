@@ -13,7 +13,7 @@ function getAge(DOB) {
 }
 
 
-let AGE = document.write(getAge("5/8/1999"));
+// let AGE = document.write(getAge("5/8/1999"));
 
 
 myAge = AGE;
