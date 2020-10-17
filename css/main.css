@@ -333,6 +333,20 @@
     margin-bottom: 2vh;
   }
 
+  .biopform {
+    display: flex;
+    flex-direction: column;
+    color: #282829;
+    margin-right: 20%;
+    margin-left: 19.5%;
+    padding: 10vh;
+    border: 2px solid #282829;
+    text-align: center;
+    width: 100vh;
+    font-size: 3.5vh;
+    font-family: Spacemono, Helvetica, sans-serif;
+  }
+
   .certimg {
     width: 30vh;
   }
