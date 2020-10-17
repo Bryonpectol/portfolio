@@ -92,6 +92,7 @@
     margin: 0px;
     position: fixed;
     padding-top: 2vh;
+    font-family: Dymaxion, Helvetica, sans-serif
   }
 
   .desktopnav {
@@ -332,10 +333,26 @@
     margin-bottom: 2vh;
   }
 
+  .certimg {
+    width: 30vh;
+  }
+  
+  .contactimg {
+    width: 25vh;
+    margin: 5vh;
+  }
+
+  .sociallinks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15%;
+  }
+
   footer {
     background-color: #003E4A;
     width: 100%;
-    height: 10vh;
+    height: 5vh;
   }
   
   .footerp {
@@ -390,7 +407,7 @@
     margin: 0px;
     padding-top: 5vh;
     height: 10vh;
-
+    font-family: Dymaxion, Helvetica, sans-serif
   }
 
   .navul {
@@ -556,7 +573,7 @@
   border: 2px solid #71D0CE;
   padding: 5vh;
   margin: 5vh;
-  margin-left: 36%;
+  margin-left: 35%;
   width: 50vh;
   /* height: 10vh; */
   text-decoration: none;
@@ -570,7 +587,7 @@
   border: 2px solid #71D0CE;
   padding: 5vh;
   margin: 5vh;
-  margin-left: 36%;
+  margin-left: 35%;
   width: 50vh;
   /* height: 10vh; */
   text-decoration: none;
@@ -597,6 +614,20 @@
   margin-bottom: 2vh;
   font-size: 3vh;
   font-family: Dymaxion, Helvetica, sans-serif
+}
+
+.certimg {
+  width: 50vh;
+}
+
+.contactimg {
+  width: 30vh;
+  margin: 10vh;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: center;
 }
 
 footer {
