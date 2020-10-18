@@ -336,15 +336,23 @@
   .biopform {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     color: #282829;
     margin-right: 20%;
-    margin-left: 19.5%;
+    margin-left: 8%;
     padding: 10vh;
     border: 2px solid #282829;
     text-align: center;
-    width: 100vh;
+    width: 25vh;
     font-size: 3.5vh;
     font-family: Spacemono, Helvetica, sans-serif;
+  }
+
+  .input {
+    margin: 2vh;
+    padding: 2vh;
+    width: 20vh;
+    height: 5vh;
   }
 
   .certimg {
