@@ -336,7 +336,7 @@
 
   .biop {
     color: #282829;
-    margin-right: 35%;
+    margin-right: 30%;
     margin-left: 5%;
     /* margin-top: 13vh; */
     padding: 5vh;
@@ -452,10 +452,6 @@
     background-color: #FFFFFF;
   }
 
-  main {
-    /* height: 75vh; */
-  }
-
   .mobilenav {
     display: none;
   }
@@ -569,7 +565,7 @@
   .biop {
     color: #282829;
     margin-right: 20%;
-    margin-left: 8%;
+    margin-left: 9%;
     /* margin-top: 13vh; */
     padding: 10vh;
     border: 2px solid #282829;
