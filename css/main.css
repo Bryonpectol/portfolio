@@ -364,6 +364,19 @@
     font-family: Spacemono, Helvetica, sans-serif;
   }
 
+  .biopdgm {
+    color: #282829;
+    margin-right: 30%;
+    margin-left: 5%;
+    /* margin-top: 13vh; */
+    padding: 5vh;
+    border: 2px solid #282829;
+    text-align: center;
+    width: 35vh;
+    font-size: 2.5vh;
+    font-family: Spacemono, Helvetica, sans-serif;
+  }
+
   .bioptop {
     color: #282829;
     margin-right: 35%;
@@ -377,18 +390,12 @@
     font-family: Spacemono, Helvetica, sans-serif;
   }
 
-  .headp {
-    display: flex;
-    justify-content: center;
-    margin-top: 13vh;
-    margin-bottom: 2vh;
-  }
-
   .headpcert {
     display: flex;
     justify-content: center;
-    margin-top: 13vh;
+    margin-top: 18vh;
     margin-bottom: 2vh;
+    font-family: Helvetica, sans-serif;
   }
 
   .calenderh3 {
@@ -493,7 +500,7 @@
   .headp {
     display: flex;
     justify-content: center;
-    margin-top: 135vh;
+    margin-top: 13vh;
     margin-bottom: 2vh;
     font-size: 3vh;
     font-family: Helvetica, sans-serif;
@@ -646,6 +653,19 @@
     border: 2px solid #282829;
     text-align: center;
     width: 150vh;
+    font-size: 3.5vh;
+    font-family: Spacemono, Helvetica, sans-serif;
+  }
+
+  .biopdgm {
+    color: #282829;
+    /* margin-right: 20%; */
+    /* margin-left: 9%; */
+    margin-top: 13vh;
+    /* padding: 10vh; */
+    /* border: 2px solid #282829; */
+    text-align: center;
+    /* width: 150vh; */
     font-size: 3.5vh;
     font-family: Spacemono, Helvetica, sans-serif;
   }
