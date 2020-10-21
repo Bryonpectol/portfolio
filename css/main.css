@@ -226,8 +226,8 @@
   .imgme {
     width: 30vh;
     height: 30vh;
-    border-radius: 5000px;
-    margin-left: 20%;
+    /* border-radius: 5000px; */
+    margin-left: 20.5%;
   }
 
   h2 {
