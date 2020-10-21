@@ -722,14 +722,26 @@ footer {
   font-size: 5vh;
 }
 
+.btna:hover {
+  cursor: pointer;
+  color: #282829;
+  background-color: #71D0CE;
+}
+
 .btnaequals {
-  width: 20vh;
+  width: 50vh;
   height: 20vh;
   margin: 1vh;
   background-color: #003E4A;
   color: #71D0CE;
   font-size: 5vh;
-  margin-left: 34.5%;
+  margin-left: 20%;
+}
+
+.btnaequals:hover {
+  cursor: pointer;
+  color: #003E4A;
+  background-color: #71D0CE;
 }
 
 .outputarea {

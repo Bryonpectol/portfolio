@@ -290,7 +290,7 @@
     justify-content: center;
     border: 2px solid #71D0CE;
     padding: 5vh;
-    margin-top: 140vh;
+    margin-top: 10vh;
     margin-left: 20%;
     width: 20vh;
     /* height: 10vh; */
@@ -433,6 +433,33 @@
     margin-top: 5vh;
     /* margin-left: 0%; */
     /* box-shadow: 5px 5px 5px grey; */
+  }
+
+  .headpform {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: 3vh;
+    font-family: Helvetica, sans-serif
+  }
+  
+  #headpformm {
+    display: flex;
+    justify-content: center;
+    margin-top: 18vh;
+    margin-bottom: 2vh;
+    font-size: 3vh;
+    font-family: Helvetica, sans-serif
+  }
+
+  .headp {
+    display: flex;
+    justify-content: center;
+    margin-top: 135vh;
+    margin-bottom: 2vh;
+    font-size: 3vh;
+    font-family: Helvetica, sans-serif
   }
 }
 
@@ -589,6 +616,17 @@
     font-family: Spacemono, Helvetica, sans-serif;
   }
 
+  .input {
+    padding: 2vh;
+    /* border-radius: 20%; */
+    margin: 1vh;
+  }
+
+  .input:hover {
+    background-color: #003E4A;
+    color: #71D0CE;
+  }
+
   .bioptop {
     color: #282829;
     margin-right: 20%;
@@ -731,13 +769,14 @@ textarea {
     padding: 2vh;
     /* width: 20vh; */
     height: 10vh;
+    font-family: Helvetica, sans-serif
 }
 
 #submitbtn {
   color: #71D0CE;
   background-color: #003E4A;
   margin-top: 4vh;
-  height: 5vh;
+  height: 7vh;
   width: 30vh;
   margin-left: 35%;
 }
