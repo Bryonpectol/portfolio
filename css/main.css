@@ -54,6 +54,24 @@
   }
 }
 
+@-webkit-keyframes certanim {
+  0% {
+    position: absolute;
+    width: 50vh;
+  }
+
+  /* 50% {
+
+  } */
+
+  100% {
+    width: 75%;
+    -moz-transform: translate(0px,100px,0px);
+    /* position: absolute; */
+    /* text-align: center; */
+  }
+}
+
 @-webkit-keyframes cssAnimation1 {
   from {
     -webkit-transform: rotate(90deg) scale(1) skew(0deg) translate(0px);
@@ -277,7 +295,7 @@
     justify-content: center;
     border: 2px solid #71D0CE;
     padding: 5vh;
-    margin-top: 30vh;
+    margin-top: 140vh;
     margin-left: 20%;
     width: 20vh;
     /* height: 10vh; */
@@ -354,6 +372,13 @@
     margin-bottom: 2vh;
   }
 
+  .headpform {
+    display: flex;
+    justify-content: center;
+    margin-top: 13vh;
+    margin-bottom: 2vh;
+  }
+
   .biopform {
     display: flex;
     flex-direction: column;
@@ -390,7 +415,7 @@
   .sociallinks {
     display: flex;
     justify-content: center;
-    margin-top: 120vh;
+    margin-top: 5vh;
     flex-direction: column;
     margin-left: 15%;
   }
@@ -405,6 +430,14 @@
     color: #71D0CE;
     text-align: center;
     padding-top: 1.5vh;
+  }
+
+  .imgmebio {
+    width: 30vh;
+    /* border-radius: 25%; */
+    margin-top: 5vh;
+    /* margin-left: 0%; */
+    /* box-shadow: 5px 5px 5px grey; */
   }
 }
 
@@ -576,13 +609,23 @@
     width: 150vh;
     font-size: 3.5vh;
     font-family: Spacemono, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
   }
 
   .imgme {
     width: 20%;
-    border-radius: 5000px;
+    /* border-radius: 25%; */
     /* margin-bottom: 50vh; */
     margin-right: 25vh;
+    /* box-shadow: 5px 5px 5px grey; */
+  }
+
+  .imgmebio {
+    width: 20%;
+    /* border-radius: 25%; */
+    margin-top: 5vh;
+    margin-left: 40%;
     /* box-shadow: 5px 5px 5px grey; */
   }
 
@@ -683,9 +726,38 @@
   font-family: Dymaxion, Helvetica, sans-serif
 }
 
+.headpform {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  font-size: 3vh;
+  font-family: Dymaxion, Helvetica, sans-serif
+}
+
+textarea {
+    margin: 2vh;
+    padding: 2vh;
+    /* width: 20vh; */
+    height: 10vh;
+}
+
+#submitbtn {
+  color: #71D0CE;
+  background-color: #003E4A;
+  margin-top: 4vh;
+  height: 5vh;
+  width: 30vh;
+  margin-left: 35%;
+}
+
 .certimg {
   width: 50vh;
 }
+
+/* .certimg:hover {
+ animation: certanim 2s forwards;
+} */
 
 .contactimg {
   width: 30vh;
