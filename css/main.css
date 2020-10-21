@@ -4,11 +4,6 @@
   overflow-x: hidden;
 }
 
-@font-face {
-    font-family: Dymaxion;
-    src: url(/fonts/DymaxionScript.ttf);
-  }
-
   @font-face {
     font-family: Odin;
     src: url(/fonts/odin.otf);
@@ -121,7 +116,7 @@
     margin-left: 0%;
     background-color: #003E4A;
     width: 100%;
-    font-family: Dymaxion, Helvetica, sans-serif
+    font-family: Helvetica, sans-serif
   }
 
   .mobilenav {
@@ -131,7 +126,7 @@
     margin: 0px;
     position: fixed;
     padding-top: 2vh;
-    font-family: Dymaxion, Helvetica, sans-serif
+    font-family: Helvetica, sans-serif
   }
 
   .desktopnav {
@@ -474,7 +469,7 @@
       background-color: #003E4A;
       width: 100%;
       padding: 1vh;
-      font-family: Dymaxion, Helvetica, sans-serif
+      font-family: Helvetica, sans-serif
   }
 
   .desktopnav {
@@ -486,7 +481,7 @@
     margin: 0px;
     padding-top: 5vh;
     height: 10vh;
-    font-family: Dymaxion, Helvetica, sans-serif
+    font-family: Helvetica, sans-serif
   }
 
   .navul {
@@ -668,7 +663,7 @@
   border: solid 3px #71D0CE;
   cursor: pointer;
   margin-bottom: 4vh;
-  font-family: Dymaxion, Helvetica, sans-serif
+  font-family: Helvetica, sans-serif
 }
 
 .ability1button:hover {
@@ -723,7 +718,7 @@
   margin-top: 13vh;
   margin-bottom: 2vh;
   font-size: 3vh;
-  font-family: Dymaxion, Helvetica, sans-serif
+  font-family: Helvetica, sans-serif
 }
 
 .headpform {
@@ -732,7 +727,7 @@
   margin-top: 5vh;
   margin-bottom: 2vh;
   font-size: 3vh;
-  font-family: Dymaxion, Helvetica, sans-serif
+  font-family: Helvetica, sans-serif
 }
 
 textarea {
