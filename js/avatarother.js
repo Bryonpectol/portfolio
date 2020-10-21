@@ -1,4 +1,4 @@
-let avatarsother = ["/images/icons/january.png", "/images/icons/february.png", "/images/icons/march.png", "/images/icons/april.png", "/images/icons/may.png", "/images/icons/june.png", "/images/icons/july.png", "/images/icons/august.png", "/images/icons/september.png", "/images/icons/october.png", "/images/icons/november.png", "/images/icons/december.png"];
+let avatarsother = ["/images/icons/january.ico", "/images/icons/february.ico", "/images/icons/march.ico", "/images/icons/april.ico", "/images/icons/may.ico", "/images/icons/june.ico", "/images/icons/july.ico", "/images/icons/august.ico", "/images/icons/september.ico", "/images/icons/october.ico", "/images/icons/november.ico", "/images/icons/december.ico"];
 
 
 let d = new Date();

@@ -8,8 +8,5 @@ let dateint = n;
 
 let AvatarImg = document.getElementById("imgmeid");
 
-let FavImg = document.getElementById("favimg");
-
 AvatarImg.setAttribute("src", avatars[dateint]);
-FavImg.setAttribute("href", avatars[dateint]);
 console.log(avatars + " : " + n);
