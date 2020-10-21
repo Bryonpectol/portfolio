@@ -11,6 +11,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
         <meta name="theme-color" content="#003E4A">
+        <link id="favimg" rel="icon" 
+      type="image/png" 
+      href="">
+
+      <script src="/js/avatar.js" type="module"></script>
+
     </head>
     <body>
         <!-- Nav -->
@@ -44,13 +50,13 @@
             <p class="headpform">Hire Me!</p>
             <form class="biopform" name="contact" method="POST" data-netlify="true">
                 <label>Your Full Name:</label>
-                <input class="input" type="text" name="name" placeholder="Full Name" />
+                <input class="input" type="text" name="name" placeholder="Full Name" required/>
                 <label>Your Email:</label>
-                <input class="input" type="email" name="email" placeholder="Email" />
+                <input class="input" type="email" name="email" placeholder="Email" required/>
                 <label>Your Phone Number:</label>
-                <input class="input" type="tel" name="phone" placeholder="Phone Number" />
+                <input class="input" type="tel" name="phone" placeholder="Phone Number" required/>
                 <label>Comment:</label>
-                <textarea class="input" type="text" name="comment" placeholder="Comment"></textarea>
+                <textarea class="input" type="text" name="comment" placeholder="Comment" required></textarea>
                 <button id="submitbtn" class="input" type="submit">Submit</button>
             </form>
 
@@ -69,6 +75,7 @@
         <!-- Footer -->
 
         <footer>
+            <script src="/js/avatarother.js" type="module"></script>
 
         </footer>
         
