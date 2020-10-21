@@ -116,7 +116,7 @@
     margin-left: 0%;
     background-color: #003E4A;
     width: 100%;
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
   }
 
   .mobilenav {
@@ -126,7 +126,7 @@
     margin: 0px;
     position: fixed;
     padding-top: 2vh;
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
   }
 
   .desktopnav {
@@ -257,7 +257,7 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    font-family: Spacemono, Helvetica, sans-serif
+    font-family: Spacemono, Helvetica, sans-serif;
   }
 
   .box {
@@ -268,7 +268,7 @@
       padding: 0px;
       margin: 2vh;
       box-shadow: 5px 5px 5px #003E4A;
-      font-family: Spacemono, Helvetica, sans-serif
+      font-family: Spacemono, Helvetica, sans-serif;
   }
 
   .imagecard {
@@ -282,7 +282,7 @@
     border: none;
     cursor: pointer;
     margin-bottom: 4vh;
-    font-family: Spacemono, Helvetica, sans-serif
+    font-family: Spacemono, Helvetica, sans-serif;
   }
 
   .contactlink {
@@ -367,6 +367,14 @@
     margin-bottom: 2vh;
   }
 
+  .calenderh3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 13vh;
+    margin-bottom: 2vh;
+    font-family: Helvetica, sans-serif;
+  }
+
   .headpform {
     display: flex;
     justify-content: center;
@@ -441,7 +449,7 @@
     margin-top: 5vh;
     margin-bottom: 2vh;
     font-size: 3vh;
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
   }
   
   #headpformm {
@@ -450,7 +458,7 @@
     margin-top: 18vh;
     margin-bottom: 2vh;
     font-size: 3vh;
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
   }
 
   .headp {
@@ -459,7 +467,7 @@
     margin-top: 135vh;
     margin-bottom: 2vh;
     font-size: 3vh;
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
   }
 
   #submitbtn {
@@ -501,7 +509,7 @@
       background-color: #003E4A;
       width: 100%;
       padding: 1vh;
-      font-family: Helvetica, sans-serif
+      font-family: Helvetica, sans-serif;
   }
 
   .desktopnav {
@@ -513,7 +521,7 @@
     margin: 0px;
     padding-top: 5vh;
     height: 10vh;
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
   }
 
   .navul {
@@ -692,7 +700,7 @@
       padding: 0px;
       margin: 5vh;
       box-shadow: 5px 5px 5px #003E4A;
-      font-family: Spacemono, Helvetica, sans-serif
+      font-family: Spacemono, Helvetica, sans-serif;
   }
 
   .imagecard {
@@ -706,7 +714,7 @@
   border: solid 3px #71D0CE;
   cursor: pointer;
   margin-bottom: 4vh;
-  font-family: Helvetica, sans-serif
+  font-family: Helvetica, sans-serif;
 }
 
 .ability1button:hover {
@@ -761,7 +769,7 @@
   margin-top: 13vh;
   margin-bottom: 2vh;
   font-size: 3vh;
-  font-family: Helvetica, sans-serif
+  font-family: Helvetica, sans-serif;
 }
 
 .headpform {
@@ -770,7 +778,7 @@
   margin-top: 5vh;
   margin-bottom: 2vh;
   font-size: 3vh;
-  font-family: Helvetica, sans-serif
+  font-family: Helvetica, sans-serif;
 }
 
 #headpformm {
@@ -779,7 +787,16 @@
   margin-top: 10vh;
   margin-bottom: 2vh;
   font-size: 3vh;
-  font-family: Helvetica, sans-serif
+  font-family: Helvetica, sans-serif;
+}
+
+.calenderh3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 23vh;
+  margin-bottom: 2vh;
+  font-size: 3vh;
+  font-family: Helvetica, sans-serif;
 }
 
 textarea {
@@ -787,7 +804,7 @@ textarea {
     padding: 2vh;
     /* width: 20vh; */
     height: 10vh;
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
 }
 
 #submitbtn {
