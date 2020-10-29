@@ -1,5 +1,19 @@
 export const projects = [
     {
+        "name":"Canvas Redesign",
+        "id": 1,
+        "tier":"Tier: D",
+        "universe":"",
+        "weight": 81,
+        "airspeed": 1019,
+        "fallingspeed": 1770,
+        "fastfall" :2832,
+        "dash": 1936,
+        "runspeed":1760,
+        "image":"/images/ultimate/1.png",
+        "link":"/html/canvas.html",
+    },
+    {
         "name":"Calculator",
         "id": 1,
         "tier":"Tier: D",

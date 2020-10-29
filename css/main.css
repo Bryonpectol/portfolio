@@ -892,6 +892,40 @@ textarea {
   margin: 10vh;
 }
 
+.canvascont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.canvascard {
+  width: 50vh;
+  height: 75vh;
+  background-color: #282829;
+  margin: 5vh;
+  border-radius: 5%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  filter: saturate(0%);
+
+}
+
+.canvascard:hover {
+  background-color: #003E4A;
+  animation: certfade 1s forwards;
+  text-align: center;
+}
+
+.canvasp {
+  width: 50vh;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  margin-top: 5vh;
+}
+
 .sociallinks {
   display: flex;
   justify-content: center;
