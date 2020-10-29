@@ -115,6 +115,26 @@
   }
 }
 
+@keyframes canvashover {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+opacity: .25;
+  }
+}
+
+@keyframes canvasphover {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 
 
 /* Mobile */
@@ -546,7 +566,7 @@
       width: 100%;
       padding: 1vh;
       font-family: Helvetica, sans-serif;
-      z-index: 1;
+      z-index: 12;
   }
 
   .desktopnav {
@@ -935,6 +955,44 @@ textarea {
   padding: 0px;
 }
 
+.canvaswireframesmain {
+  transform: rotate(-90deg);
+  width: 50%;
+  z-index: -1;
+}
+
+.canvasgreycompsmain {
+  width: 100vh;
+  height: 50vh;
+  z-index: -1;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  background: rgb(0, 62, 74, .85);
+  height: 20vh;
+  width: 85vh;
+  opacity: 0;
+  padding-top: 30vh;
+  padding-bottom: 20vh;
+}
+
+.centered:hover {
+  animation: canvasphover 1s forwards;
+}
+
+.containercanvas {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
 .canvasgreycomps {
   /* transform: rotate(-90deg); */
   width: 40%;
@@ -942,6 +1000,16 @@ textarea {
   /* margin-top: 0px; */
   /* margin-bottom: 0px; */
   padding: 0px;
+}
+
+.canvasgreycompsmain {
+  /* transform: rotate(-90deg); */
+  width: 40%;
+  margin: 10vh;
+  /* margin-top: 0px; */
+  /* margin-bottom: 0px; */
+  padding: 0px;
+  z-index: 0;
 }
 
 .canvasgreycompsmobile {
