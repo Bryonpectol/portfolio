@@ -677,6 +677,22 @@ opacity: .25;
     font-family: Spacemono, Helvetica, sans-serif;
   }
 
+  .biopcanvas {
+    color: #282829;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 20%;
+    margin-left: 9%;
+    /* margin-top: 13vh; */
+    padding: 10vh;
+    border: 2px solid #282829;
+    text-align: center;
+    width: 150vh;
+    font-size: 3.5vh;
+    font-family: Spacemono, Helvetica, sans-serif;
+  }
+
   .biopdgm {
     color: #282829;
     /* margin-right: 20%; */
@@ -991,6 +1007,8 @@ textarea {
   text-align: center;
   color: white;
   width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 .canvasgreycomps {
