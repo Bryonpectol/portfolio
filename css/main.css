@@ -975,12 +975,14 @@ textarea {
   transform: rotate(-90deg);
   width: 38%;
   z-index: -1;
+  box-shadow: grey 5px 5px 5px;
 }
 
 .canvasgreycompsmain {
   width: 722px;
   height: 375px;
   z-index: -1;
+  box-shadow: grey 5px 5px 5px;
 }
 
 .centered {
