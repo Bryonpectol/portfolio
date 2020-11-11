@@ -115,6 +115,30 @@
   }
 }
 
+@-webkit-keyframes inputhoverp {
+  0% {
+    background-color: white;
+    color: black;
+  }
+  50% {
+    background-color: #003E4A;
+    color: #71D0CE;
+  }
+  100% {
+    background-color: white;
+    color: black;
+  }
+}
+
+@keyframes boxshadow {
+  0% {
+    box-shadow: grey 5px 5px 5px;
+  }
+  100% {
+    box-shadow: none;
+  }
+}
+
 @keyframes canvashover {
   0% {
     opacity: 1;
@@ -731,6 +755,11 @@ opacity: .25;
     color: #71D0CE;
   }
 
+   #submitbtn:hover {
+    animation: inputhoverp 2s infinite;
+    cursor: pointer;
+  }
+
   .bioptop {
     color: #282829;
     margin-right: 20%;
@@ -973,7 +1002,8 @@ textarea {
 
 .canvaswireframesmain {
   transform: rotate(-90deg);
-  width: 38%;
+  width: 60vh;
+  height: 100vh;
   z-index: -1;
   box-shadow: grey 5px 5px 5px;
 }
@@ -993,10 +1023,10 @@ textarea {
   z-index: 1;
   color: white;
   background: rgb(0, 62, 74, .85);
-  height: 20vh;
-  width: 85vh;
+  height: 15vh;
+  width: 105vh;
   opacity: 0;
-  padding-top: 30vh;
+  padding-top: 25vh;
   padding-bottom: 20vh;
 }
 
@@ -1024,7 +1054,7 @@ textarea {
 
 .canvasgreycompsmain {
   /* transform: rotate(-90deg); */
-  width: 40%;
+  /* width: 40%; */
   margin: 10vh;
   /* margin-top: 0px; */
   /* margin-bottom: 0px; */
