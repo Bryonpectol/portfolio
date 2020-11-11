@@ -681,14 +681,14 @@ opacity: .25;
     color: #282829;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    margin-right: 20%;
-    margin-left: 9%;
+    flex-direction: row;
+    /* margin-right: 20%; */
+    /* margin-left: 9%; */
     /* margin-top: 13vh; */
     padding: 10vh;
-    border: 2px solid #282829;
+    /* border: 2px solid #282829; */
     text-align: center;
-    width: 150vh;
+    /* width: 100%; */
     font-size: 3.5vh;
     font-family: Spacemono, Helvetica, sans-serif;
   }
@@ -973,13 +973,13 @@ textarea {
 
 .canvaswireframesmain {
   transform: rotate(-90deg);
-  width: 50%;
+  width: 38%;
   z-index: -1;
 }
 
 .canvasgreycompsmain {
-  width: 100vh;
-  height: 50vh;
+  width: 722px;
+  height: 375px;
   z-index: -1;
 }
 
