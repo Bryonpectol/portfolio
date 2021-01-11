@@ -11,3 +11,15 @@ let FavImg = document.getElementById("favimg");
 
 FavImg.setAttribute("href", avatarsother[dateint]);
 console.log(avatarsother + " : " + n);
+
+let today = new Date();
+
+let toDay = document.getElementById("date");
+
+
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+toDay.innerHTML = "Accessed bryonpectol.dev on: " + today;
