@@ -569,6 +569,12 @@ opacity: .25;
     visibility: visible;
     text-align: center;
   }
+
+  .mobileprojecta {
+    color: #003E4A;
+    text-decoration: none;
+    border: 2px #003E4A solid;
+  }
 }
 
 
