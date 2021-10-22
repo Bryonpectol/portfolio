@@ -570,10 +570,14 @@ opacity: .25;
     text-align: center;
   }
 
+  .centered {
+    border: 2px #003E4A solid;
+    margin: 2vh;
+  }
+
   .mobileprojecta {
     color: #003E4A;
     text-decoration: none;
-    border: 2px #003E4A solid;
   }
 }
 
