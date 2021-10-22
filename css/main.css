@@ -567,6 +567,7 @@ opacity: .25;
 
   .containercanvasmobile {
     visibility: visible;
+    text-align: center;
   }
 }
 
