@@ -558,6 +558,16 @@ opacity: .25;
     width: 30vh;
     /* margin-left:%; */
   }
+
+
+  .containercanvas {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .containercanvasmobile {
+    visibility: visible;
+  }
 }
 
 
@@ -773,6 +783,14 @@ opacity: .25;
     font-family: Spacemono, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+  }
+
+  .containercanvasmobile {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
   }
 
   .imgme {
