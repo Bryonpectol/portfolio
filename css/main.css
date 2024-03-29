@@ -333,6 +333,7 @@
     .mobilelogo {
         width: 75px;
         padding-top: 1vh
+        border-radius: 50px;
     }
 
     .mobilenavul {
