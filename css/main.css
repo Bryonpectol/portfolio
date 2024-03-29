@@ -570,6 +570,10 @@
         border-radius: 25px;
     }
 
+    .calender {
+        width: 5vh;
+    }
+
     .terms {
         font-family: helvetica, ariel;
         padding-right: 1vh;
