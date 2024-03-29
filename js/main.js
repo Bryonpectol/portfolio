@@ -32,13 +32,13 @@ function ham() {
     login = document.createElement("a");
 
     home.textContent = "Home";
-    quote.textContent = "How It Works";
-    contact.textContent = "Contact Us";
+    quote.textContent = "My Projects";
+    contact.textContent = "Contact Me";
     login.textContent = "Signup/Login";
 
     contact.setAttribute("href", "/html/contact.html");
-    home.setAttribute("href", "https://uxshore.com/");
-    quote.setAttribute("href", "/html/how-it-works.html");
+    home.setAttribute("href", "https://bryonpectol.dev/");
+    quote.setAttribute("href", "/html/examples.html");
     login.setAttribute("href", "/html/login.html");
 
     home.className = "mobilelinksa";
@@ -50,7 +50,7 @@ function ham() {
     mobileLinksDiv.appendChild(home);
     mobileLinksDiv.appendChild(quote);
     mobileLinksDiv.appendChild(contact);
-    mobileLinksDiv.appendChild(login);
+    // mobileLinksDiv.appendChild(login);
 
 
 }

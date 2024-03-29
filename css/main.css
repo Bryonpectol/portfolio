@@ -2,11 +2,11 @@
 @keyframes desktopnavlinks {
 
     0% {
-        background-color: rgba(242, 217, 141, 0.2);
+        background-color: #80002D;
     }
 
     100% {
-        background-color: #F2c299;
+        background-color: #0D1219;
     }
 
 }
@@ -77,18 +77,20 @@
 
     .navdesktop {
         width: 100%;
-        height: 10.5vh;
-        background-color: rgba(242, 217, 141, 0.3);
+        height: 10vh;
+        background-color: #80002D;
         display: inline-block;
         flex-direction: row;
         justify-content: center;
         overflow-y: hidden;
+        box-shadow: 0px 5px 5px #331924;
+        position: fixed;
     }
 
     .desktopnavlinks {
         display: flex;
         justify-content: center;
-        margin-right: 10vh;
+        margin-right: 5vh;
     }
 
     .desktoplogodiv {
@@ -122,7 +124,7 @@
     .desktopnava {
         text-decoration: none;
         padding: 4vh 4vh 3.31vh 4vh;
-        color: #037F8C;
+        color: white;
     }
 
     .desktopnava:hover {
@@ -132,27 +134,145 @@
     .desktopnava1 {
         text-decoration: none;
         padding: 4vh 4vh 3.31vh 4vh;
-        background-color: #F2c299;
-        color: #037F8C;
+        background-color: #0D1219;
+        color: #202D40;
+        color: white;
     }
 
     main {
-        background-color: #048ABF;
+        background-color: #0D1219;
         /* height: 100vh; */
         /* margin-top: 10vh; */
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .first {
         width: 75%;
-        background-color: rgba(255, 255, 255, 0.25);
+        background-color: rgba(255, 255, 255, 0.1);
         border-radius: 25px;
         display: flex;
         justify-content: center;
         padding: 5vh 0vh 5vh 0vh;
         flex-direction: column;
         text-align: center;
+        color: white;
+        margin-top: 7vh;
+        margin-bottom: 5vh;
+    }
+
+    .second {
+        width: 75%;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 5vh 0vh 5vh 0vh;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .examplesBtn {
+        padding: 2vh;
+        margin-right: 40vh;
+        margin-left: 40vh;
+        border-radius: 25px;
+        background-color: #E68A00;
+        text-decoration: none;
+        color: black;
+        font-family: josefin, helvetica;
+        box-shadow: 3px 3px 0px #0D1219;
+    }
+
+    .examplesBtn:active {
+        box-shadow: none;
+    }
+
+    .formp {
+        margin: 2vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    label {
+        font-family: josefin, helvetica;
+    }
+
+    .input {
+        font-family: josefin, helvetica;
+        height: 4vh;
+        padding-left: 1.25vh;
+        border-radius: 25px;
+        border: none;
+        margin-left: 20vh;
+        margin-right: 20vh;
+    }
+
+    .inputtext {
+        height: 20vh;
+        border-radius: 15px;
+        padding-left: 1.5vh;
+        padding-top: 1.5vh;
+        font-family: josefin, helvetica;
+        border: none;
+        margin-left: 20vh;
+        margin-right: 20vh;
+    }
+
+    .submitbtn {
+        background-color: #E68A00;
+        background: #E68A00;
+        font-family: josefin, helvetica;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        margin-left: 40vh;
+        margin-right: 40vh;
+        
+    }
+
+    .examplea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        flex-direction: column;
+        border-radius: 25px;
+        margin: 1vh 20vh 1vh 20vh;
+        background-color: rgba(255,255,255,0.2);
+        box-shadow: 3px 3px 0px white;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    .examplea:active {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 25px;
+        margin: 1vh 2vh 1vh 2vh;
+        background-color: rgba(255,255,255,0.2);
+        box-shadow: 0px 0px 0px white;
+    }
+
+    .exampleimg {
+        width: 20vh;
+        border-radius: 15px;
+    }
+
+    .examplep {
+        text-decoration: none;
+        color: white;
     }
 
 }
