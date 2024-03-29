@@ -6,8 +6,8 @@ let desktopLogo = document.getElementById("desktoplogo");
 let mobileLogo = document.getElementById("mobilelogo");
 
 
-desktopLogo.setAttribute("src", "/images/icons/" + logoRanNum + ".png");
-mobileLogo.setAttribute("src", "/images/icons/" + logoRanNum + ".png");
+desktopLogo.setAttribute("src", "/images/me.jpg");
+mobileLogo.setAttribute("src", "/images/me.jpg");
 
 let hamLogo = document.getElementById("ham");
 let hamBtn = document.getElementById("hamBtn");
