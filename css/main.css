@@ -462,7 +462,7 @@
         margin-right: 2vh;
         margin-left: 2vh;
         border-radius: 25px;
-        background-color: #F2D98D;
+        background-color: #E68A00;
         text-decoration: none;
         color: black;
         font-family: josefin, helvetica;
@@ -506,8 +506,8 @@
     }
 
     .submitbtn {
-        background-color: #F2884B;
-        background: #F2884B;
+        background-color: #E68A00;
+        background: #E68A00;
         font-family: josefin, helvetica;
         color: white;
         border: none;
@@ -578,7 +578,7 @@
 
     footer {
         width: 100%;
-        height: 5vh;
+        /*height: 5vh;*/
         background-color: #037F8C;
         color: white;
         text-align: center;
