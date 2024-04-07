@@ -176,6 +176,20 @@
         margin-bottom: 5vh;
     }
 
+    .github {
+        width: 75%;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 5vh 0vh 5vh 0vh;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
     .examplesBtn {
         padding: 2vh;
         margin-right: 40vh;
@@ -460,6 +474,12 @@
         margin-bottom: 4vh;
         color: white;
         font-family: josefin, helvetica;
+    }
+
+    .github {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
     }
 
     .examplesBtn {
