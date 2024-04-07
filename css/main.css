@@ -384,6 +384,10 @@
         letter-spacing: 3px;
     }
 
+    .certimg {
+        width: 150px;
+    }
+
     .mobilelinksul {
         visibility: hidden;
         width: 100%;
