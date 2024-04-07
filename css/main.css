@@ -328,12 +328,12 @@
     .mobilelogodiv {
         float:inline-start;
         padding: 0vh 0vh 0vh 3vh;
-        border-radius: 75px;
+        border-radius: 100px;
     }
 
     .mobilelogo {
-        width: 75px;
-        padding-top: 1vh;
+        width: 60px;
+        /*padding-top: 1vh;*/
     }
 
     .mobilenavul {
