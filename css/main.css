@@ -430,7 +430,7 @@
     }
 
     main {
-        background-color: #0D1219;
+        background: url("/images/bg.png");
         /* height: 100vh; */
         margin-top: 11vh;
         display: flex;
