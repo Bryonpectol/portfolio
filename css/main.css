@@ -141,7 +141,7 @@
     main {
         background: url("/images/bg-desk.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         /* height: 100vh; */
         /* margin-top: 10vh; */
         display: flex;
