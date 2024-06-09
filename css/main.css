@@ -42,13 +42,13 @@
 
 /* Fonts */
 @font-face {
-    font-family: "josefin";
-    src: url("/media/fonts/josefin.ttf");
+    font-family: "blade-rounded";
+    src: url("/fonts/Bladerounded-Regular.ttf");
 }
 
 @font-face {
-    font-family: "chicle";
-    src: url("/media/fonts/chicle.ttf");
+    font-family: "elounda";
+    src: url("/fonts/Elounda-Regular.otf");
 }
 
 
@@ -470,12 +470,12 @@
     }
 
     h1 {
-        font-family: chicle, Ariel;
+        font-family: blade-rounded, Ariel;
         letter-spacing: 3px;
     }
 
     h2 {
-        font-family: chicle, Ariel;
+        font-family: blade-rounded, Ariel;
         letter-spacing: 3px;
     }
 
@@ -506,7 +506,7 @@
         margin-top: 4vh;
         margin-bottom: 4vh;
         color: white;
-        font-family: josefin, helvetica;
+        font-family: helvetica;
     }
 
     .github {
@@ -523,7 +523,7 @@
         background-color: #11D9C5;
         text-decoration: none;
         color: black;
-        font-family: josefin, helvetica;
+        font-family: helvetica;
     }
 
     .form {
@@ -531,7 +531,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        font-family: josefin, helvetica;
+        font-family: helvetica;
     }
     
     .formp {
@@ -543,11 +543,11 @@
     }
 
     label {
-        font-family: josefin, helvetica;
+        font-family: helvetica;
     }
 
     .input {
-        font-family: josefin, helvetica;
+        font-family: helvetica;
         height: 4vh;
         padding-left: 1.25vh;
         border-radius: 25px;
@@ -559,14 +559,14 @@
         border-radius: 15px;
         padding-left: 1.5vh;
         padding-top: 1.5vh;
-        font-family: josefin, helvetica;
+        font-family: helvetica;
         border: none;
     }
 
     .submitbtn {
         background-color: #027373;
         background: #027373;
-        font-family: josefin, helvetica;
+        font-family: helvetica;
         color: white;
         border: none;
         border-radius: 15px;
@@ -635,7 +635,7 @@
     }
 
     .terms {
-        font-family: helvetica, ariel;
+        font-family: ariel;
         padding-right: 1vh;
         padding-left: 1vh;
     }
