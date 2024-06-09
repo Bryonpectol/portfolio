@@ -139,7 +139,7 @@
     }
 
     main {
-        background: url("/images/bg-main.png");
+        background: url("/images/bg-desk.png");
         background-repeat: no-repeat;
         background-size: 100% 50%;
         /* height: 100vh; */
