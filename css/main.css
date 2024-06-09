@@ -452,6 +452,21 @@
         align-content: center;
     }
 
+    main-index {
+        background: url("/images/bg-main.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+        margin-top: 11vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+
     h1 {
         font-family: chicle, Ariel;
         letter-spacing: 3px;
