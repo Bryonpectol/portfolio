@@ -457,7 +457,7 @@
     .main-index {
         background: url("/images/bg-main.png");
         background-position: center;
-        background-size: contain;
+        background-size: auto;
         background-repeat: no-repeat;
         /* height: 100vh; */
         margin-top: 11vh;
