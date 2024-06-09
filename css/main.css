@@ -431,6 +431,8 @@
 
     main {
         background: url("/images/bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
         /* height: 100vh; */
         margin-top: 11vh;
         display: flex;
