@@ -407,6 +407,14 @@
         width: 200px;
     }
 
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+    }
+
     .mobilelinksul {
         visibility: hidden;
         width: 100%;
