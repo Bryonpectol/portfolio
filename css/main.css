@@ -2,11 +2,11 @@
 @keyframes desktopnavlinks {
 
     0% {
-        background-color: #80002D;
+        background-color: #011126;
     }
 
     100% {
-        background-color: #0D1219;
+        background-color: #027373;
     }
 
 }
@@ -141,7 +141,7 @@
     main {
         background: url("/images/bg-desk.png");
         background-repeat: no-repeat;
-        background-size: fit;
+        background-size: cover;
         /* height: 100vh; */
         /* margin-top: 10vh; */
         display: flex;
