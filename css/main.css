@@ -452,7 +452,7 @@
         align-content: center;
     }
 
-    main-index {
+    .main-index {
         background: url("/images/bg-main.png");
         background-position: center;
         background-size: cover;
